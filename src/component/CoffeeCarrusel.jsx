@@ -19,7 +19,7 @@ const CoffeeCarrusel = () => {
   return (
     <div className="container-fluid p-0">
       <div className="text-center mb-4">
-        <h1 className="text-white">Coffee List</h1> {/* Título del carrusel centrado */}
+        <h1 className="text-white">Coffee List Rogelio Menco  </h1> {/* Título del carrusel centrado */}
       </div>
       <div className="carousel-container">
         <div id="coffeeCarousel" className="carousel slide" data-bs-ride="carousel">
@@ -34,12 +34,12 @@ const CoffeeCarrusel = () => {
               </div>
             ))}
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <button className="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="Prev">
+            <span className="carousel-control-prev-icon" aria-hidden="True"></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <button className="carousel-control-next" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="Next">
+            <span className="carousel-control-next-icon" aria-hidden="True"></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
